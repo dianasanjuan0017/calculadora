@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora basica</title>
+</head>
+<body>
+    <form action="./calculadora.php" method="post">
+    <label for="valor1">ingresa el primer valor:</label>
+    <br>
+    <input type="number" id="num1" name="num1"  placeholder="ingresa el primer numero"  required>
+    <br>
+    <br>
+    <label for="valor2">ingresa el segundo valor:</label>
+    <br>
+    <input type="number" id="num2" name="num2"  placeholder="ingresa el segundo numero"  required>
+    <br>
+    <br>
+    <select name="operacion" id="operacion">
+    <option value="+">sumar(+)</option>
+    <option value="-">restar(-)</option>
+    <option value="*">multiplicar(*)</option>
+    <option value="/">dividir(/)</option>
+    </select>
+    <br>
+    <input type="submit" value="calculadora">
+</form>
+</body>
+</html>
